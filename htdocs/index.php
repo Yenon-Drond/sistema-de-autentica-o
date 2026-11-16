@@ -1,5 +1,4 @@
 <?php
-session_start();
 include 'conecta.php';
 //Verifica se o formulário enviou algo
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
